@@ -9,7 +9,8 @@ basic:
         - 1024
         - 1200
     pages:
-        - /
+        - '/user/register?destination='
+        - /user/login
         - /wszystkie-produkty
         - /wszystkie-produkty/product-stage/3
         - /wszystkie-produkty/product-brand/6
@@ -17,19 +18,26 @@ basic:
         - /wszystkie-produkty/product-stage/1
         - /wszystkie-produkty/product-stage/11
         - /all-articles
-        - /diagnostyka-alergii-pokarmowej
-        - /prof-dr-hab-n-med-aneta-krogulska
         - /materialy-wideo
-        - /czy-mozemy-mowic-o-przelomie-w-zywieniu-dzieci
-        - /wojciech-feleszko
-        - /l/wszystkie-produkty
         - /nan-optipro-plus
         - /prenan
         - /nan-expertpro
         - /nestle-sinlac
-        - /nan-expertpro-ha-2
-        - /nan-expertpro-ha-3
-        - /search
+        - /nan-supremepro-1
+        - /wczesniaki-0
+        - /niemowleta
+        - /dzieci-po-1-roku-zycia
+        - /nan
+        - /nancare
+        - /diagnostyka-alergii-pokarmowej
+        - /nawilza-chlodzi-wyleczy-czerwone-oko
+        - /objawy-alergii-u-dzieci
+        - /mikrobiota-sojusznik-czy-wrog
+        - /polityka-nestle-dotyczaca-cookies
+        - /regulamin-serwisu
+        - /nestle-babyme-medical-lietuva
+        - /faq
+        - /redakcja-nestle-babyme-medical
     monitoring:
         days: {  }
         type: ''
