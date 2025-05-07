@@ -1,0 +1,56 @@
+basic:
+    name: 'test 1'
+    environments:
+        production: 'https://www.medical.nestlebabyandme.pl'
+        staging: 'https://152104-dig0033913-nutrition-babyme-poland.pantheonsite.io'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /wszystkie-produkty
+        - /wszystkie-produkty/product-stage/3
+        - /wszystkie-produkty/product-brand/6
+        - /wszystkie-produkty/product-brand/13
+        - /wszystkie-produkty/product-stage/1
+        - /wszystkie-produkty/product-stage/11
+        - /all-articles
+        - /diagnostyka-alergii-pokarmowej
+        - /prof-dr-hab-n-med-aneta-krogulska
+        - /materialy-wideo
+        - /czy-mozemy-mowic-o-przelomie-w-zywieniu-dzieci
+        - /wojciech-feleszko
+        - /l/wszystkie-produkty
+        - /nan-optipro-plus
+        - /prenan
+        - /nan-expertpro
+        - /nestle-sinlac
+        - /nan-expertpro-ha-2
+        - /nan-expertpro-ha-3
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
